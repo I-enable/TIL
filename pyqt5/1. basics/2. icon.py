@@ -11,7 +11,7 @@ class MyApp(QWidget):
 
   def initUI(self):
       self.setWindowTitle('Icon')
-      self.setWindowIcon(QIcon("web.png"))
+      self.setWindowIcon(QIcon("img/web.png"))
       self.setGeometry(300, 300, 300, 200) # move와 resize를 합침
       self.show()
 

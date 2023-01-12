@@ -10,9 +10,9 @@ class MyApp(QWidget):
       self.initUI()
 
   def initUI(self):
-      btn = QPushButton('Quit', self)
+      btn = QPushButton('Quit', self) # 버튼에 표시될 텍스트
       btn.move(50, 50)
-      btn.resize(btn.sizeHint())
+      btn.resize(btn.sizeHint()) # sizeHint는 버튼의 크기를 적절하게 만들어준다.
       btn.clicked.connect(QCoreApplication.instance().quit)
 
       self.setWindowTitle('Quit Button')
